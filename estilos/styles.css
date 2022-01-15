@@ -131,7 +131,7 @@ form {
 .contenedor-imagenes {
   width: 100%;
   display: grid;
-  grid-template-areas: ;
+
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
