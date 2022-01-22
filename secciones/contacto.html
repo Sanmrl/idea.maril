@@ -42,7 +42,7 @@
 
       <nav
         class="navbar navbar-expand-lg navbar-light"
-        style="background-color: #c38d9"
+        style="background-color: #c38d94"
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -92,19 +92,47 @@
     </header>
     <!--Inicio cuerpo principal-->
     <main class="main">
-      <form action="">
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" />
-        <br />
-        <label for="apellido">Apellido</label>
-        <input type="text" name="apellido" id="" />
-        <br />
-        <label for="email">email</label>
-        <input type="email" name="email" id="" />
-        <br />
-        <label for="comentario"></label>
-        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-        <input type="submit" />
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1"> Dirección de mail</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Cantidad de productos</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Producto elegido</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>Torta</option>
+            <option>Tarta</option>
+            <option>Medialunas</option>
+            <option>Macarons</option>
+            <option>Perzonalizado</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Comentarios</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+        </div>
       </form>
     </main>
     <!--Fin del cuerpo-->

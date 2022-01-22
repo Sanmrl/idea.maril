@@ -130,10 +130,10 @@ form {
 /*Diseño Footer*/
 
 .footer {
-  background-color: #c38d94;
   margin: 50px;
   padding: 30px;
   border: solid 1px;
+  background-color: #c38d94;
   border-color: #f7c4a5;
 }
 
@@ -180,36 +180,6 @@ form {
     width: 50%;
   }
 
-  .torta1 {
-    grid-area: torta1;
-  }
-  .torta2 {
-    grid-area: torta2;
-  }
-  .torta3 {
-    grid-area: torta3;
-  }
-  .torta4 {
-    grid-area: torta4;
-  }
-  .torta5 {
-    grid-area: torta5;
-  }
-  .tarta1 {
-    grid-area: tarta1;
-  }
-  .tarta2 {
-    grid-area: tarta2;
-  }
-  .tarta3 {
-    grid-area: tarta3;
-  }
-  .alfajores {
-    grid-area: alfajores;
-  }
-  .macarons {
-    grid-area: macarons;
-  }
   /*Cambio media Footer*/
 
   .footer {

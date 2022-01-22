@@ -21,6 +21,7 @@
       rel="stylesheet"
       href="../idea.maril/css.bootstrap/bootstrap.min.css"
     />
+
     <script src="../idea.maril/js/bootstrap.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -41,7 +42,7 @@
 
       <nav
         class="navbar navbar-expand-lg navbar-light"
-        style="background-color: #c38d9"
+        style="background-color: #c38d94"
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -93,133 +94,157 @@
     <main class="main">
       <div>
         <!-- Busqueda productos-->
-        <form action="">
-          <label for="Buscar"></label>
-          <input type="text" />
-          <input type="submit" value="Buscar" />
-          <input type="reset" value="Limpiar" />
-        </form>
-      </div>
-      <br />
-      <div>
-        <!--Menu desplegable-->
-        <p>Productos</p>
-        <form action="">
-          <select name="Producto" id="">
-            <option value="Tortas">Tortas</option>
-            <option value="Tartas">Tartas</option>
-            <option value="Alfajores">Alfajores</option>
-            <option value="Macarons">Macarons</option>
-            <option value="Medialunas">Medialunas</option>
-          </select>
-        </form>
-      </div>
-      <section>
-        <div class="contenedor-imagenes">
-          <div>
-            <img
-              class="torta1"
-              src="../multimedia/torta1jpeg.jpg"
-              alt="Torta1"
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est
-              magnam ipsum nam voluptate aliquam! Modi quia quae laudantium hic
-              molestias? Debitis ipsam modi, incidunt dolorem adipisci maxime
-              itaque! Non?
-            </p>
-          </div>
-          <div>
-            <img class="torta2" src="../multimedia/torta2.jpeg" alt="Torta2" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              id mollitia at voluptatem! Fugiat mollitia quisquam ex sequi unde
-              minus sit? Provident quia unde quidem deleniti harum cum quos.
-              Sit.
-            </p>
-          </div>
-          <div>
-            <img class="torta3" src="../multimedia/torta3.jpeg" alt="Torta3" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis sunt, nihil et voluptatum corrupti deserunt
-              similique, unde earum minima fuga delectus ducimus excepturi
-              obcaecati in qui voluptates quidem eligendi sequi.
-            </p>
-          </div>
-          <div>
-            <img class="torta4" src="../multimedia/torta4.jpeg" alt="Torta4" />
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Cupiditate eos sunt vero praesentium optio dolore, perferendis
-              molestiae fugiat voluptates iusto aut expedita quo, eligendi,
-              rerum provident doloremque eaque similique iste.
-            </p>
-          </div>
-          <div>
-            <img class="torta5" src="../multimedia/torta5.jpeg" alt="Torta5" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Inventore minus corrupti at, debitis id excepturi soluta nesciunt
-              consectetur deserunt quod fuga officia temporibus. Veniam ratione
-              nesciunt, soluta delectus inventore quam.
-            </p>
-          </div>
-          <div>
-            <img class="tarta1" src="../multimedia/tarta1.jpeg" alt="Tarta1" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              omnis deserunt aperiam, quod aut dolorum quis nihil nesciunt at
-              ab, possimus dolore perspiciatis tempora laudantium cumque aliquam
-              repellat? Quia, nam.
-            </p>
-          </div>
-          <div>
-            <img class="tarta2" src="../multimedia/tarta2.jpeg" alt="Tarta2" />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
-              animi exercitationem sunt voluptatem quasi nam. Earum recusandae
-              exercitationem nostrum accusantium, labore nisi aperiam ducimus
-              voluptates odio fuga laboriosam temporibus inventore.
-            </p>
-          </div>
-          <div>
-            <img class="tarta3" src="../multimedia/tarta3.jpeg" alt="Tarta3" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              libero velit nam doloremque explicabo repellat quisquam esse qui
-              fugit ut repellendus, inventore, iure ab odio aspernatur nisi et
-              placeat eum?
-            </p>
-          </div>
-          <div>
-            <img
-              class="alfajores"
-              src="../multimedia/alfajor.jpeg"
-              alt="Alfajores"
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              itaque vero neque, ea fuga corrupti illum velit eos ipsa quos ad
-              temporibus a necessitatibus repudiandae eius. Maxime magni
-              expedita ducimus?
-            </p>
-          </div>
-          <div>
-            <img
-              class="macarons"
-              src="../multimedia/macarons.jpeg"
-              alt="Macarons"
-            />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              placeat voluptas rem quisquam harum? Delectus odio tempore eos
-              officiis dolores nisi. Repellat libero provident aliquid iste
-              facere beatae maxime neque.
-            </p>
+        <select class="custom-select">
+          <option selected>Busqueda</option>
+          <option value="1">Tortas</option>
+          <option value="2">Tartas</option>
+          <option value="3">Medialunas</option>
+          <option value="3">Macarons</option>
+        </select>
+
+        <br>
+        <br>
+        <br><br>
+        <br>
+      
+
+      <section class="gallery min-vh-100">
+        <div class="container-lg">
+          <div class="row gy-4 row-cols-1 row-cols-sm-4 row-cols-md-2">
+            <div class="col">
+              <img
+                src="../multimedia/torta1jpeg.jpg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
+            <div class="col">
+              <img
+                src="../multimedia/torta2.jpeg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
+            <div class="col">
+              <img
+                src="../multimedia/torta3.jpeg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
+            <div class="col">
+              <img
+                src="../multimedia/torta4.jpeg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
+            <div class="col">
+              <img
+                src="../multimedia/torta5.jpeg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
+            <div class="col">
+              <img
+                src="../multimedia/tarta1.jpeg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
+            <div class="col">
+              <img
+                src="../multimedia/tarta2.jpeg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
+            <div class="col">
+              <img
+                src="../multimedia/tarta3.jpeg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
+            <div class="col">
+              <img
+                src="../multimedia/medialuna.jpeg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
+            <div class="col">
+              <img
+                src="../multimedia/macarons.jpeg"
+                class="img-fluid img-thumbnail"
+                alt="gallery"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+              </blockquote>
+            </div>
           </div>
         </div>
       </section>
+
     </main>
     <!--Inicio footer-->
     <footer class="footer">
