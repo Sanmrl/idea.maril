@@ -127,45 +127,6 @@ form {
   grid-area: texto2;
 }
 
-/*Diseño Grid imagenes*/
-.contenedor-imagenes {
-  width: 100%;
-  display: grid;
-
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-}
-.torta1 {
-  grid-area: torta1;
-}
-.torta2 {
-  grid-area: torta2;
-}
-.torta3 {
-  grid-area: torta3;
-}
-.torta4 {
-  grid-area: torta4;
-}
-.torta5 {
-  grid-area: torta5;
-}
-.tarta1 {
-  grid-area: tarta1;
-}
-.tarta2 {
-  grid-area: tarta2;
-}
-.tarta3 {
-  grid-area: tarta3;
-}
-.alfajores {
-  grid-area: alfajores;
-}
-.macarons {
-  grid-area: macarons;
-}
-
 /*Diseño Footer*/
 
 .footer {
@@ -219,24 +180,6 @@ form {
     width: 50%;
   }
 
-  /*Cambio media Imagenes*/
-  .contenedor-imagenes {
-    width: 100%;
-    display: grid;
-    grid-template-areas:
-      "torta1"
-      "torta2"
-      "torta3"
-      "torta4"
-      "torta5"
-      "tarta1"
-      "tarta2"
-      "tarta3"
-      "alfajores"
-      "macarons";
-
-    grid-template-columns: 90%;
-  }
   .torta1 {
     grid-area: torta1;
   }
