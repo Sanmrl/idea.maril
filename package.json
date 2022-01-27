@@ -1,0 +1,19 @@
+{
+  "name": "idea.maril",
+  "version": "1.0.0",
+  "description": "Proyecto para la clase de Desarrollo Web, creado por Sandra Maril, HTML, CSS, Bootstrap, Grid y Flex con algunas animaciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanmrl/idea.maril.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanmrl/idea.maril/issues"
+  },
+  "homepage": "https://github.com/Sanmrl/idea.maril#readme"
+}
