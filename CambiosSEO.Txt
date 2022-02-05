@@ -1,0 +1,1 @@
+Para empezar escribi los metas con la descripcion y las keywords. Cambié el tamaño de las imagenes en Productos y precios para que la pagina cargara más rápido y ayudara al rendimiento. Agregué un H1 al Header. Puse descripciones claras en los alt de las imagenes.

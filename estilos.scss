@@ -1,3 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+
+@import "maps";
+@import "extend";
+@import "mixing";
+
 .header {
   .lista {
     display: inline;
@@ -42,8 +51,8 @@
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size 0.3s;
-    :hover,
-    :focus {
+    &:hover,
+    &:focus {
       background-size: 100% 2px;
     }
 
@@ -75,14 +84,7 @@
     font-size: 15px;
     background-color: #f7c4a5;
   }
-  img {
-    height: 20rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0em;
-    margin-bottom: 2em;
-  }
+  
 
   form {
     text-align: center;
@@ -148,4 +150,3 @@
     justify-content: flex-end;
     align-items: stretch;
   }
-}
