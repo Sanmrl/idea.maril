@@ -1,0 +1,45 @@
+.main {
+  background-color: #f7c4a5;
+  text-align: center;
+  margin: 50px;
+  padding: 30px;
+  border: solid 1px;
+  border-color: #c38d94;
+
+  p {
+    font-family: "bitter", sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    font-weight: 300;
+    color: black;
+    font-size: 15px;
+    background-color: #f7c4a5;
+  }
+
+  form {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    padding: 2rem;
+  }
+}
+.img_rrss {
+  height: 2.5rem;
+}
+
+.contenedor-cuerpo {
+  text-align: center;
+  margin: 50px;
+  padding: 30px;
+  display: grid;
+  grid-template-areas:
+    "imagen-texto1 imagen-texto2"
+    "imagen-texto1 imagen-texto2";
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+}

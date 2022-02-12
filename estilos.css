@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 .header {
   background-color: #c38d94;
   width: 100%;
@@ -31,6 +36,10 @@
   width: 30em;
 }
 
+.header h1 {
+  font-family: "bitter", sans-serif;
+}
+
 .header nav {
   position: relative;
   margin-right: 20px;
@@ -53,12 +62,11 @@
   transition: background-size 0.3s;
 }
 
-.header .a :hover,
-.header .a :focus {
+.header .a:hover, .header .a:focus {
   background-size: 100% 2px;
 }
 
-.logo {
+.header .logo {
   background-color: #f7c4a5;
   border-radius: 50%;
   padding: 5px;
@@ -82,19 +90,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 30em;
-  font-weight: 200;
+  font-weight: 300;
   color: black;
   font-size: 15px;
   background-color: #f7c4a5;
-}
-
-.main img {
-  height: 20rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0em;
-  margin-bottom: 2em;
 }
 
 .main form {
@@ -182,5 +181,76 @@
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+}
+
+.carousel {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 599px) {
+  p {
+    font-size: 15px;
+  }
+  /*Cambio media Header*/
+  .logo {
+    display: none;
+  }
+  h1 {
+    display: none;
+  }
+  /*Main*/
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .mb-0 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  /*Cambio media Footer*/
+  .containerrrss {
+    width: 20%;
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+        grid-template-areas: "img_rrss1" "img_rrss2" "img_rrss3";
+    -ms-grid-columns: 2rem;
+        grid-template-columns: 2rem;
+  }
+  .img_rrss1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: img_rrss1;
+    height: 2rem;
+    display: inline-block;
+  }
+  .img_rrss2 {
+    height: 2rem;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: img_rrss2;
+    display: inline-block;
+  }
+  .img_rrss3 {
+    height: 2rem;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: img_rrss3;
+    display: inline-block;
+  }
+  .container-resto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */

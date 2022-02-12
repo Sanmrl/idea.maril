@@ -1,0 +1,39 @@
+.footer {
+  background-color: #c38d94;
+  border-color: #f7c4a5;
+  color: white;
+  border: solid 1px;
+  margin: 50px;
+  padding: 30px;
+
+  .containerrrss {
+    width: 20%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: "img_rrss1 img_rrss2 img_rrss3";
+    grid-template-columns: 2rem 2rem 2rem;
+    grid-template-rows: auto;
+  }
+  .img_rrss1 {
+    grid-area: img_rrss1;
+    height: 2rem;
+    display: inline-block;
+  }
+
+  .img_rrss2 {
+    height: 2rem;
+    grid-area: img_rrss2;
+    display: inline-block;
+  }
+  .img_rrss3 {
+    height: 2rem;
+    grid-area: img_rrss3;
+    display: inline-block;
+  }
+  .container-resto {
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+}
