@@ -1,8 +1,4 @@
-@media only screen and (max-width: 599px) {
-  p {
-    font-size: 15px;
-  }
-
+@media (max-width: 599px) {
   /*Cambio media Header*/
   .logo {
     display: none;
@@ -54,5 +50,103 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+@media (max-width: 412) {
+  main {
+    img {
+      width: 100%;
+    }
+    div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    p {
+      width: 400px;
+    }
+  }
+  .footer {
+    background-color: #c38d94;
+    border-color: #f7c4a5;
+    color: white;
+    border: solid 1px;
+
+    width: 100%;
+
+    .containerrrss {
+      width: 20%;
+      display: grid;
+      justify-content: space-around;
+      grid-template-areas: "img_rrss1 img_rrss2 img_rrss3";
+      grid-template-columns: 2rem 2rem 2rem;
+      grid-template-rows: auto;
+    }
+    .img_rrss1 {
+      grid-area: img_rrss1;
+      height: 2rem;
+      display: inline-block;
+    }
+
+    .img_rrss2 {
+      height: 2rem;
+      grid-area: img_rrss2;
+      display: inline-block;
+    }
+    .img_rrss3 {
+      height: 2rem;
+      grid-area: img_rrss3;
+      display: inline-block;
+    }
+    .container-resto {
+      display: flex;
+      align-content: stretch;
+      justify-content: flex-end;
+      align-items: stretch;
+    }
+  }
+  .main {
+    background-color: #f7c4a5;
+    text-align: center;
+
+    border: solid 1px;
+    border-color: #000000;
+    width: 100%;
+
+    p {
+      font-family: "bitter", sans-serif;
+      text-align: center;
+
+      width: 100%;
+      font-weight: 300;
+      color: black;
+      font-size: 15px;
+      background-color: #f7c4a5;
+    }
+
+    form {
+      text-align: center;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30em;
+      padding: 2rem;
+    }
+  }
+  .img_rrss {
+    height: 2.5rem;
+  }
+
+  .contenedor-cuerpo {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    display: grid;
+    grid-template-areas:
+      "imagen-texto1 imagen-texto2"
+      "imagen-texto1 imagen-texto2";
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
   }
 }
